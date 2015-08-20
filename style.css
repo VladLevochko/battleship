@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #000 url(http://im.wk.io/images/od/79b8/air-traffic-controller-the-facts.jpeg) center top no-repeat;
+}
+
+table{
+    margin: 2px auto;
+    width: 595px;
+    height: 595px;
+    border: 1px solid #fff;
+}
+
+td{
+    outline: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+    .miss{
+        background: darkred;
+    }
+
+    .hit{
+        background: green;
+    }
+
+#inputArea{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 60px;
+    background: #1a1a19;
+}
+
+    input{
+        height: 18px;
+        margin: 20px;
+        border: none;
+    }
+
+#messageArea{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    color: #fff;
+}
